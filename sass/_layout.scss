@@ -74,6 +74,10 @@ nav {
         display: flex;
         justify-content: flex-end;
         padding: 0 5rem;
+
+        @include respond(phone-medium) {
+                padding: 0;
+        } 
         
         
 }
@@ -94,6 +98,9 @@ nav {
         color:#fff;
         transition: all 1s;
         padding: 7px;
+        @include respond(phone-medium) {
+                padding: 2px;
+        } 
 }
 
 .nav__bar .nav__list li a:hover,

@@ -608,6 +608,9 @@ nav {
   display: flex;
   justify-content: flex-end;
   padding: 0 5rem; }
+  @media only screen and (max-width: 28.125em) {
+    .nav__bar .nav__list {
+      padding: 0; } }
 
 .nav__bar .nav__list li {
   font-size: 2.4rem;
@@ -621,6 +624,10 @@ nav {
   color: #fff;
   transition: all 1s;
   padding: 7px; }
+  @media only screen and (max-width: 28.125em) {
+    .nav__bar .nav__list li a:link,
+    .nav__bar .nav__list li a:visited {
+      padding: 2px; } }
 
 .nav__bar .nav__list li a:hover,
 .nav__bar .nav__list li a:active {
