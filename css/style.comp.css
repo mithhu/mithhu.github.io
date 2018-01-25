@@ -255,7 +255,7 @@ h1 {
       transform: translate(-50%, -280%); } }
   @media only screen and (any-hover: none) {
     .figure__text {
-      opacity: 1;
+      opacity: .9;
       transform: translate(-50%, -100%);
       box-shadow: var(--shadow-dark); } }
 
@@ -278,7 +278,7 @@ h1 {
       transform: translate(-50%, 160%); } }
   @media only screen and (any-hover: none) {
     .figure__link {
-      opacity: 1;
+      opacity: .9;
       transform: translate(-50%, 80%);
       box-shadow: var(--shadow-dark); } }
 
