@@ -584,14 +584,14 @@ nav {
   background-color: #E31B6D;
   position: fixed;
   height: 8rem;
-  width: 96.85%;
+/*   width: 96.85%; */
   display: block;
   border-bottom: 3px solid #FF3366;
   top: 0;
   padding: 2rem;
   box-shadow: var(--shadow-dark);
   z-index: 30000; }
-  @media only screen and (max-width: 90em) {
+/*   @media only screen and (max-width: 90em) {
     .nav__bar {
       width: 96.05%; } }
   @media only screen and (max-width: 75em) {
@@ -602,7 +602,7 @@ nav {
       width: 94.7%; } }
   @media only screen and (max-width: 28.125em) {
     .nav__bar {
-      width: 92%; } }
+      width: 92%; } } */
 
 .nav__bar .nav__list {
   display: flex;
